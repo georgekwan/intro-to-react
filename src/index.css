@@ -5,11 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  borderradius: "10px";
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 30px;
 }
 
 code {

@@ -7,7 +7,18 @@ function Adder(props) {
       return curr + 1;
     });
   }
-  return <button onClick={increaseCount}>Increase The Count</button>;
+  return (
+    <button
+      style={{
+        backgroundColor: "#CC8800",
+        padding: "10px",
+        borderRadius: "10px",
+      }}
+      onClick={increaseCount}
+    >
+      Increase The Count
+    </button>
+  );
 }
 
 export default Adder;

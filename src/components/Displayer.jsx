@@ -2,7 +2,7 @@ import React from "react";
 
 function Displayer(props) {
   const count = props.count;
-  return <p>{count}</p>;
+  return <p style={{ fontSize: "50px" }}>{count}</p>;
 }
 
 export default Displayer;
